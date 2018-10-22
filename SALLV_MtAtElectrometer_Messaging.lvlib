@@ -6,43 +6,43 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Subsystem" Type="Folder">
-		<Item Name="EXA.lvclass" Type="LVClass" URL="../../SALLV_EXA_Messaging/Subsystem/EXA/EXA.lvclass"/>
+		<Item Name="EXA.lvclass" Type="LVClass" URL="../Subsystem/EXA/EXA.lvclass"/>
 	</Item>
 	<Item Name="Command" Type="Folder">
-		<Item Name="disable.lvclass" Type="LVClass" URL="../../SALLV_EXA_Messaging/Topics/Command/disable/disable.lvclass"/>
-		<Item Name="enable.lvclass" Type="LVClass" URL="../../SALLV_EXA_Messaging/Topics/Command/enable/enable.lvclass"/>
-		<Item Name="enterControl.lvclass" Type="LVClass" URL="../../SALLV_EXA_Messaging/Topics/Command/enterControl/enterControl.lvclass"/>
-		<Item Name="exitControl.lvclass" Type="LVClass" URL="../../SALLV_EXA_Messaging/Topics/Command/exitControl/exitControl.lvclass"/>
-		<Item Name="standby.lvclass" Type="LVClass" URL="../../SALLV_EXA_Messaging/Topics/Command/standby/standby.lvclass"/>
-		<Item Name="start.lvclass" Type="LVClass" URL="../../SALLV_EXA_Messaging/Topics/Command/start/start.lvclass"/>
+		<Item Name="disable.lvclass" Type="LVClass" URL="../Topics/Command/disable/disable.lvclass"/>
+		<Item Name="enable.lvclass" Type="LVClass" URL="../Topics/Command/enable/enable.lvclass"/>
+		<Item Name="enterControl.lvclass" Type="LVClass" URL="../Topics/Command/enterControl/enterControl.lvclass"/>
+		<Item Name="exitControl.lvclass" Type="LVClass" URL="../Topics/Command/exitControl/exitControl.lvclass"/>
+		<Item Name="standby.lvclass" Type="LVClass" URL="../Topics/Command/standby/standby.lvclass"/>
+		<Item Name="start.lvclass" Type="LVClass" URL="../Topics/Command/start/start.lvclass"/>
 	</Item>
 	<Item Name="Event" Type="Folder">
-		<Item Name="appliedSettingsMatchStart.lvclass" Type="LVClass" URL="../../SALLV_EXA_Messaging/Topics/Event/appliedSettingsMatchStart/appliedSettingsMatchStart.lvclass"/>
-		<Item Name="detailedState.lvclass" Type="LVClass" URL="../../SALLV_EXA_Messaging/Topics/Event/detailedState/detailedState.lvclass"/>
-		<Item Name="errorCode.lvclass" Type="LVClass" URL="../../SALLV_EXA_Messaging/Topics/Event/errorCode/errorCode.lvclass"/>
-		<Item Name="heartbeat.lvclass" Type="LVClass" URL="../../SALLV_EXA_Messaging/Topics/Event/heartbeat/heartbeat.lvclass"/>
-		<Item Name="internalCommand.lvclass" Type="LVClass" URL="../../SALLV_EXA_Messaging/Topics/Event/internalCommand/internalCommand.lvclass"/>
-		<Item Name="loopTimeOutOfRange.lvclass" Type="LVClass" URL="../../SALLV_EXA_Messaging/Topics/Event/loopTimeOutOfRange/loopTimeOutOfRange.lvclass"/>
-		<Item Name="rejectedCommand.lvclass" Type="LVClass" URL="../../SALLV_EXA_Messaging/Topics/Event/rejectedCommand/rejectedCommand.lvclass"/>
-		<Item Name="settingVersions.lvclass" Type="LVClass" URL="../../SALLV_EXA_Messaging/Topics/Event/settingVersions/settingVersions.lvclass"/>
-		<Item Name="summaryState.lvclass" Type="LVClass" URL="../../SALLV_EXA_Messaging/Topics/Event/summaryState/summaryState.lvclass"/>
+		<Item Name="appliedSettingsMatchStart.lvclass" Type="LVClass" URL="../Topics/Event/appliedSettingsMatchStart/appliedSettingsMatchStart.lvclass"/>
+		<Item Name="detailedState.lvclass" Type="LVClass" URL="../Topics/Event/detailedState/detailedState.lvclass"/>
+		<Item Name="errorCode.lvclass" Type="LVClass" URL="../Topics/Event/errorCode/errorCode.lvclass"/>
+		<Item Name="heartbeat.lvclass" Type="LVClass" URL="../Topics/Event/heartbeat/heartbeat.lvclass"/>
+		<Item Name="internalCommand.lvclass" Type="LVClass" URL="../Topics/Event/internalCommand/internalCommand.lvclass"/>
+		<Item Name="loopTimeOutOfRange.lvclass" Type="LVClass" URL="../Topics/Event/loopTimeOutOfRange/loopTimeOutOfRange.lvclass"/>
+		<Item Name="rejectedCommand.lvclass" Type="LVClass" URL="../Topics/Event/rejectedCommand/rejectedCommand.lvclass"/>
+		<Item Name="settingVersions.lvclass" Type="LVClass" URL="../Topics/Event/settingVersions/settingVersions.lvclass"/>
+		<Item Name="summaryState.lvclass" Type="LVClass" URL="../Topics/Event/summaryState/summaryState.lvclass"/>
 	</Item>
 	<Item Name="Telemetry" Type="Folder">
-		<Item Name="loopTime.lvclass" Type="LVClass" URL="../../SALLV_EXA_Messaging/Topics/Telemetry/loopTime/loopTime.lvclass"/>
-		<Item Name="timestamp.lvclass" Type="LVClass" URL="../../SALLV_EXA_Messaging/Topics/Telemetry/timestamp/timestamp.lvclass"/>
+		<Item Name="loopTime.lvclass" Type="LVClass" URL="../Topics/Telemetry/loopTime/loopTime.lvclass"/>
+		<Item Name="timestamp.lvclass" Type="LVClass" URL="../Topics/Telemetry/timestamp/timestamp.lvclass"/>
 	</Item>
 	<Item Name="AckCommand" Type="Folder">
-		<Item Name="disableackcmd.lvclass" Type="LVClass" URL="../../SALLV_EXA_Messaging/Topics/AckCommand/disableackcmd/disableackcmd.lvclass"/>
-		<Item Name="enableackcmd.lvclass" Type="LVClass" URL="../../SALLV_EXA_Messaging/Topics/AckCommand/enableackcmd/enableackcmd.lvclass"/>
-		<Item Name="exitControlackcmd.lvclass" Type="LVClass" URL="../../SALLV_EXA_Messaging/Topics/AckCommand/exitControlackcmd/exitControlackcmd.lvclass"/>
-		<Item Name="standbyackcmd.lvclass" Type="LVClass" URL="../../SALLV_EXA_Messaging/Topics/AckCommand/standbyackcmd/standbyackcmd.lvclass"/>
-		<Item Name="startackcmd.lvclass" Type="LVClass" URL="../../SALLV_EXA_Messaging/Topics/AckCommand/startackcmd/startackcmd.lvclass"/>
+		<Item Name="disableackcmd.lvclass" Type="LVClass" URL="../Topics/AckCommand/disableackcmd/disableackcmd.lvclass"/>
+		<Item Name="enableackcmd.lvclass" Type="LVClass" URL="../Topics/AckCommand/enableackcmd/enableackcmd.lvclass"/>
+		<Item Name="exitControlackcmd.lvclass" Type="LVClass" URL="../Topics/AckCommand/exitControlackcmd/exitControlackcmd.lvclass"/>
+		<Item Name="standbyackcmd.lvclass" Type="LVClass" URL="../Topics/AckCommand/standbyackcmd/standbyackcmd.lvclass"/>
+		<Item Name="startackcmd.lvclass" Type="LVClass" URL="../Topics/AckCommand/startackcmd/startackcmd.lvclass"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
-		<Item Name="SALLVFnRefsAckCmd.ctl" Type="VI" URL="../../SALLV_EXA_Messaging/SALMessagingTypedefs/SALLVFnRefsAckCmd.ctl"/>
-		<Item Name="SALLVFnRefsCommand.ctl" Type="VI" URL="../../SALLV_EXA_Messaging/SALMessagingTypedefs/SALLVFnRefsCommand.ctl"/>
-		<Item Name="SALLVFnRefsEvent.ctl" Type="VI" URL="../../SALLV_EXA_Messaging/SALMessagingTypedefs/SALLVFnRefsEvent.ctl"/>
-		<Item Name="SALLVFnRefsTelemetry.ctl" Type="VI" URL="../../SALLV_EXA_Messaging/SALMessagingTypedefs/SALLVFnRefsTelemetry.ctl"/>
-		<Item Name="SALLVFnRefsSubsystem.ctl" Type="VI" URL="../../SALLV_EXA_Messaging/SALMessagingTypedefs/SALLVFnRefsSubsystem.ctl"/>
+		<Item Name="SALLVFnRefsAckCmd.ctl" Type="VI" URL="../SALMessagingTypedefs/SALLVFnRefsAckCmd.ctl"/>
+		<Item Name="SALLVFnRefsCommand.ctl" Type="VI" URL="../SALMessagingTypedefs/SALLVFnRefsCommand.ctl"/>
+		<Item Name="SALLVFnRefsEvent.ctl" Type="VI" URL="../SALMessagingTypedefs/SALLVFnRefsEvent.ctl"/>
+		<Item Name="SALLVFnRefsTelemetry.ctl" Type="VI" URL="../SALMessagingTypedefs/SALLVFnRefsTelemetry.ctl"/>
+		<Item Name="SALLVFnRefsSubsystem.ctl" Type="VI" URL="../SALMessagingTypedefs/SALLVFnRefsSubsystem.ctl"/>
 	</Item>
 </Library>
