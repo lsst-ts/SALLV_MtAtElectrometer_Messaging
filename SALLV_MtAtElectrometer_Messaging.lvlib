@@ -9,12 +9,20 @@
 		<Item Name="EXA.lvclass" Type="LVClass" URL="../Subsystem/EXA/EXA.lvclass"/>
 	</Item>
 	<Item Name="Command" Type="Folder">
+		<Item Name="start.lvclass" Type="LVClass" URL="../Topics/Command/start/start.lvclass"/>
 		<Item Name="disable.lvclass" Type="LVClass" URL="../Topics/Command/disable/disable.lvclass"/>
 		<Item Name="enable.lvclass" Type="LVClass" URL="../Topics/Command/enable/enable.lvclass"/>
 		<Item Name="enterControl.lvclass" Type="LVClass" URL="../Topics/Command/enterControl/enterControl.lvclass"/>
 		<Item Name="exitControl.lvclass" Type="LVClass" URL="../Topics/Command/exitControl/exitControl.lvclass"/>
 		<Item Name="standby.lvclass" Type="LVClass" URL="../Topics/Command/standby/standby.lvclass"/>
-		<Item Name="start.lvclass" Type="LVClass" URL="../Topics/Command/start/start.lvclass"/>
+		<Item Name="performZeroCalib.lvclass" Type="LVClass" URL="../Topics/Command/performZeroCalib/performZeroCalib.lvclass"/>
+		<Item Name="setDigitalFilter.lvclass" Type="LVClass" URL="../Topics/Command/setDigitalFilter/setDigitalFilter.lvclass"/>
+		<Item Name="startScan.lvclass" Type="LVClass" URL="../Topics/Command/startScan/startScan.lvclass"/>
+		<Item Name="startScanDt.lvclass" Type="LVClass" URL="../Topics/Command/startScanDt/startScanDt.lvclass"/>
+		<Item Name="setIntegrationTime.lvclass" Type="LVClass" URL="../Topics/Command/setIntegrationTime/setIntegrationTime.lvclass"/>
+		<Item Name="setMode.lvclass" Type="LVClass" URL="../Topics/Command/setMode/setMode.lvclass"/>
+		<Item Name="setRange.lvclass" Type="LVClass" URL="../Topics/Command/setRange/setRange.lvclass"/>
+		<Item Name="stopScan.lvclass" Type="LVClass" URL="../Topics/Command/stopScan/stopScan.lvclass"/>
 	</Item>
 	<Item Name="Event" Type="Folder">
 		<Item Name="appliedSettingsMatchStart.lvclass" Type="LVClass" URL="../Topics/Event/appliedSettingsMatchStart/appliedSettingsMatchStart.lvclass"/>
@@ -32,11 +40,17 @@
 		<Item Name="timestamp.lvclass" Type="LVClass" URL="../Topics/Telemetry/timestamp/timestamp.lvclass"/>
 	</Item>
 	<Item Name="AckCommand" Type="Folder">
+		<Item Name="startackcmd.lvclass" Type="LVClass" URL="../Topics/AckCommand/startackcmd/startackcmd.lvclass"/>
 		<Item Name="disableackcmd.lvclass" Type="LVClass" URL="../Topics/AckCommand/disableackcmd/disableackcmd.lvclass"/>
 		<Item Name="enableackcmd.lvclass" Type="LVClass" URL="../Topics/AckCommand/enableackcmd/enableackcmd.lvclass"/>
 		<Item Name="exitControlackcmd.lvclass" Type="LVClass" URL="../Topics/AckCommand/exitControlackcmd/exitControlackcmd.lvclass"/>
 		<Item Name="standbyackcmd.lvclass" Type="LVClass" URL="../Topics/AckCommand/standbyackcmd/standbyackcmd.lvclass"/>
-		<Item Name="startackcmd.lvclass" Type="LVClass" URL="../Topics/AckCommand/startackcmd/startackcmd.lvclass"/>
+		<Item Name="performZeroCalibackcmd.lvclass" Type="LVClass" URL="../Topics/AckCommand/performZeroCalibackcmd/performZeroCalibackcmd.lvclass"/>
+		<Item Name="startScanackcmd.lvclass" Type="LVClass" URL="../Topics/AckCommand/startScanackcmd/startScanackcmd.lvclass"/>
+		<Item Name="setDigitalFilterackcmd.lvclass" Type="LVClass" URL="../Topics/AckCommand/setDigitalFilterackcmd/setDigitalFilterackcmd.lvclass"/>
+		<Item Name="setIntegrationTimeackcmd.lvclass" Type="LVClass" URL="../Topics/AckCommand/setIntegrationTimeackcmd/setIntegrationTimeackcmd.lvclass"/>
+		<Item Name="setModeackcmd.lvclass" Type="LVClass" URL="../Topics/AckCommand/setModeackcmd/setModeackcmd.lvclass"/>
+		<Item Name="startScanDtackcmd.lvclass" Type="LVClass" URL="../Topics/AckCommand/startScanDtackcmd/startScanDtackcmd.lvclass"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="SALLVFnRefsAckCmd.ctl" Type="VI" URL="../SALMessagingTypedefs/SALLVFnRefsAckCmd.ctl"/>
